@@ -13,6 +13,11 @@
 		E267843F1FD9418A00A677D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E267843D1FD9418A00A677D6 /* Main.storyboard */; };
 		E26784411FD9418A00A677D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26784401FD9418A00A677D6 /* Assets.xcassets */; };
 		E26784441FD9418A00A677D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E26784421FD9418A00A677D6 /* LaunchScreen.storyboard */; };
+		E267844D1FD942DA00A677D6 /* PassWordView.m in Sources */ = {isa = PBXBuildFile; fileRef = E267844C1FD942DA00A677D6 /* PassWordView.m */; };
+		E26B604D1FDA856B003B7AC6 /* MBProgressHUD+Ex.m in Sources */ = {isa = PBXBuildFile; fileRef = E26B60491FDA856B003B7AC6 /* MBProgressHUD+Ex.m */; };
+		E26B604E1FDA856B003B7AC6 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E26B604A1FDA856B003B7AC6 /* MBProgressHUD.bundle */; };
+		E26B604F1FDA856B003B7AC6 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E26B604C1FDA856B003B7AC6 /* MBProgressHUD.m */; };
+		E26B60521FDA8D59003B7AC6 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E26B60511FDA8D59003B7AC6 /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,15 @@
 		E26784401FD9418A00A677D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E26784431FD9418A00A677D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E26784451FD9418A00A677D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E267844B1FD942DA00A677D6 /* PassWordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassWordView.h; sourceTree = "<group>"; };
+		E267844C1FD942DA00A677D6 /* PassWordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassWordView.m; sourceTree = "<group>"; };
+		E26B60481FDA856B003B7AC6 /* MBProgressHUD+Ex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Ex.h"; sourceTree = "<group>"; };
+		E26B60491FDA856B003B7AC6 /* MBProgressHUD+Ex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Ex.m"; sourceTree = "<group>"; };
+		E26B604A1FDA856B003B7AC6 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		E26B604B1FDA856B003B7AC6 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		E26B604C1FDA856B003B7AC6 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		E26B60501FDA8D59003B7AC6 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		E26B60511FDA8D59003B7AC6 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 		E26784331FD9418A00A677D6 /* 32.九宫格手势解锁 */ = {
 			isa = PBXGroup;
 			children = (
+				E26B60471FDA856B003B7AC6 /* MBProgressHUD */,
 				E26784371FD9418A00A677D6 /* AppDelegate.h */,
 				E26784381FD9418A00A677D6 /* AppDelegate.m */,
 				E267843A1FD9418A00A677D6 /* ViewController.h */,
@@ -67,6 +82,10 @@
 				E26784421FD9418A00A677D6 /* LaunchScreen.storyboard */,
 				E26784451FD9418A00A677D6 /* Info.plist */,
 				E26784341FD9418A00A677D6 /* Supporting Files */,
+				E267844B1FD942DA00A677D6 /* PassWordView.h */,
+				E267844C1FD942DA00A677D6 /* PassWordView.m */,
+				E26B60501FDA8D59003B7AC6 /* HomeViewController.h */,
+				E26B60511FDA8D59003B7AC6 /* HomeViewController.m */,
 			);
 			path = "32.九宫格手势解锁";
 			sourceTree = "<group>";
@@ -77,6 +96,19 @@
 				E26784351FD9418A00A677D6 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E26B60471FDA856B003B7AC6 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				E26B60481FDA856B003B7AC6 /* MBProgressHUD+Ex.h */,
+				E26B60491FDA856B003B7AC6 /* MBProgressHUD+Ex.m */,
+				E26B604A1FDA856B003B7AC6 /* MBProgressHUD.bundle */,
+				E26B604B1FDA856B003B7AC6 /* MBProgressHUD.h */,
+				E26B604C1FDA856B003B7AC6 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			path = "../../../../Desktop/2.UI进阶/资料/资料/第3天/3其他资源/MBProgressHUD";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E26784441FD9418A00A677D6 /* LaunchScreen.storyboard in Resources */,
+				E26B604E1FDA856B003B7AC6 /* MBProgressHUD.bundle in Resources */,
 				E26784411FD9418A00A677D6 /* Assets.xcassets in Resources */,
 				E267843F1FD9418A00A677D6 /* Main.storyboard in Resources */,
 			);
@@ -151,8 +184,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E267843C1FD9418A00A677D6 /* ViewController.m in Sources */,
+				E26B604F1FDA856B003B7AC6 /* MBProgressHUD.m in Sources */,
+				E26B604D1FDA856B003B7AC6 /* MBProgressHUD+Ex.m in Sources */,
 				E26784391FD9418A00A677D6 /* AppDelegate.m in Sources */,
 				E26784361FD9418A00A677D6 /* main.m in Sources */,
+				E26B60521FDA8D59003B7AC6 /* HomeViewController.m in Sources */,
+				E267844D1FD942DA00A677D6 /* PassWordView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +346,7 @@
 				E267844A1FD9418A00A677D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

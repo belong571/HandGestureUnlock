@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  PassWordView.h
 //  32.九宫格手势解锁
 //
 //  Created by zyj on 2017/12/7.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
-
+@interface PassWordView : UIView
+@property(nonatomic,strong) BOOL (^passwordBlock)(NSString *);
 @end
-
