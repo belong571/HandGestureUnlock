@@ -14,10 +14,10 @@
 		E26784411FD9418A00A677D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26784401FD9418A00A677D6 /* Assets.xcassets */; };
 		E26784441FD9418A00A677D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E26784421FD9418A00A677D6 /* LaunchScreen.storyboard */; };
 		E267844D1FD942DA00A677D6 /* PassWordView.m in Sources */ = {isa = PBXBuildFile; fileRef = E267844C1FD942DA00A677D6 /* PassWordView.m */; };
-		E26B604D1FDA856B003B7AC6 /* MBProgressHUD+Ex.m in Sources */ = {isa = PBXBuildFile; fileRef = E26B60491FDA856B003B7AC6 /* MBProgressHUD+Ex.m */; };
-		E26B604E1FDA856B003B7AC6 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E26B604A1FDA856B003B7AC6 /* MBProgressHUD.bundle */; };
-		E26B604F1FDA856B003B7AC6 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E26B604C1FDA856B003B7AC6 /* MBProgressHUD.m */; };
 		E26B60521FDA8D59003B7AC6 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E26B60511FDA8D59003B7AC6 /* HomeViewController.m */; };
+		E2E7350E1FE3C7DD00A952BA /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E2E735091FE3C7DD00A952BA /* MBProgressHUD.bundle */; };
+		E2E7350F1FE3C7DD00A952BA /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E7350B1FE3C7DD00A952BA /* MBProgressHUD.m */; };
+		E2E735101FE3C7DD00A952BA /* MBProgressHUD+Ex.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E7350D1FE3C7DD00A952BA /* MBProgressHUD+Ex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,13 +33,13 @@
 		E26784451FD9418A00A677D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E267844B1FD942DA00A677D6 /* PassWordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassWordView.h; sourceTree = "<group>"; };
 		E267844C1FD942DA00A677D6 /* PassWordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassWordView.m; sourceTree = "<group>"; };
-		E26B60481FDA856B003B7AC6 /* MBProgressHUD+Ex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Ex.h"; sourceTree = "<group>"; };
-		E26B60491FDA856B003B7AC6 /* MBProgressHUD+Ex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Ex.m"; sourceTree = "<group>"; };
-		E26B604A1FDA856B003B7AC6 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
-		E26B604B1FDA856B003B7AC6 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		E26B604C1FDA856B003B7AC6 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		E26B60501FDA8D59003B7AC6 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		E26B60511FDA8D59003B7AC6 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		E2E735091FE3C7DD00A952BA /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		E2E7350A1FE3C7DD00A952BA /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		E2E7350B1FE3C7DD00A952BA /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		E2E7350C1FE3C7DD00A952BA /* MBProgressHUD+Ex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Ex.h"; sourceTree = "<group>"; };
+		E2E7350D1FE3C7DD00A952BA /* MBProgressHUD+Ex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Ex.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +72,7 @@
 		E26784331FD9418A00A677D6 /* 32.九宫格手势解锁 */ = {
 			isa = PBXGroup;
 			children = (
-				E26B60471FDA856B003B7AC6 /* MBProgressHUD */,
+				E2E735081FE3C7C900A952BA /* MBProgressHUD */,
 				E26784371FD9418A00A677D6 /* AppDelegate.h */,
 				E26784381FD9418A00A677D6 /* AppDelegate.m */,
 				E267843A1FD9418A00A677D6 /* ViewController.h */,
@@ -98,17 +98,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E26B60471FDA856B003B7AC6 /* MBProgressHUD */ = {
+		E2E735081FE3C7C900A952BA /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				E26B60481FDA856B003B7AC6 /* MBProgressHUD+Ex.h */,
-				E26B60491FDA856B003B7AC6 /* MBProgressHUD+Ex.m */,
-				E26B604A1FDA856B003B7AC6 /* MBProgressHUD.bundle */,
-				E26B604B1FDA856B003B7AC6 /* MBProgressHUD.h */,
-				E26B604C1FDA856B003B7AC6 /* MBProgressHUD.m */,
+				E2E735091FE3C7DD00A952BA /* MBProgressHUD.bundle */,
+				E2E7350A1FE3C7DD00A952BA /* MBProgressHUD.h */,
+				E2E7350B1FE3C7DD00A952BA /* MBProgressHUD.m */,
+				E2E7350C1FE3C7DD00A952BA /* MBProgressHUD+Ex.h */,
+				E2E7350D1FE3C7DD00A952BA /* MBProgressHUD+Ex.m */,
 			);
 			name = MBProgressHUD;
-			path = "../../../../Desktop/2.UI进阶/资料/资料/第3天/3其他资源/MBProgressHUD";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,7 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E26784441FD9418A00A677D6 /* LaunchScreen.storyboard in Resources */,
-				E26B604E1FDA856B003B7AC6 /* MBProgressHUD.bundle in Resources */,
+				E2E7350E1FE3C7DD00A952BA /* MBProgressHUD.bundle in Resources */,
 				E26784411FD9418A00A677D6 /* Assets.xcassets in Resources */,
 				E267843F1FD9418A00A677D6 /* Main.storyboard in Resources */,
 			);
@@ -184,9 +183,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E267843C1FD9418A00A677D6 /* ViewController.m in Sources */,
-				E26B604F1FDA856B003B7AC6 /* MBProgressHUD.m in Sources */,
-				E26B604D1FDA856B003B7AC6 /* MBProgressHUD+Ex.m in Sources */,
+				E2E7350F1FE3C7DD00A952BA /* MBProgressHUD.m in Sources */,
 				E26784391FD9418A00A677D6 /* AppDelegate.m in Sources */,
+				E2E735101FE3C7DD00A952BA /* MBProgressHUD+Ex.m in Sources */,
 				E26784361FD9418A00A677D6 /* main.m in Sources */,
 				E26B60521FDA8D59003B7AC6 /* HomeViewController.m in Sources */,
 				E267844D1FD942DA00A677D6 /* PassWordView.m in Sources */,
